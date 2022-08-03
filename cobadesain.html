@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas clone halaman</title>
+    <style>
+        div.container{
+            position: absolute;
+            width: 1920px;
+            height: 1048px;
+            left: 0px;
+            top: 0px;
+
+            background: #FFF5EC;
+        } 
+        div.body{
+            position: absolute;
+            width: 1920px;
+            height: 4125px;
+            left: 0px;
+            top: 1048px;
+
+            background: #FFF5EC;
+        }
+        div.footer{
+            position: absolute;
+            width: 1920px;
+            height: 685px;
+            left: 0px;
+            top: 5173px;
+
+            background: #EFC81A;
+        }
+        div.a1{
+            width: 960px;
+            height: 1048px;
+            
+        }
+        
+        .button{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 23px;
+            letter-spacing: 0em;
+            text-align: center;
+            border: none;
+            background-color: #FFF5EC;
+            margin-top: 67px;
+            margin-left: 110px;
+        }
+        .judul{
+            position: absolute;
+            width: 562px;
+            height: 180px;
+            left: 132px;
+            top: 370px;
+
+            font-style: normal;
+            font-weight: 500;
+            font-size: 72px;
+            line-height: 90px;
+
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
+
+            color: #2E266F;
+        }
+        .search{
+            position: absolute;
+            width: 670px;
+            height: 90px;
+            left: 135px;
+            top: 620px;
+
+            background: #EFEFEF;
+            border-radius: 15px;
+            border: none;
+
+            font-size: 24px;
+        }
+
+        .login{
+            position: absolute;
+            width: 41px;
+            height: 21px;
+            left: 1733px;
+            top: 68px;
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+
+            border: none;
+            background: none;
+        }
+        .gambar1{
+            position: absolute;
+            width: 878px;
+            height: 870px;
+            left: 1085px;
+            top: 193px;
+        }
+
+        .judul2{
+            position: absolute;
+            width: 636px;
+            height: 105px;
+            left: 190px;
+            top: 83px;
+
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 62px;
+
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
+
+            color: #2E266F;
+        }
+        .gambar2{
+            position: absolute;
+            width: 830px;
+            height: 830px;
+            left: 135px;
+            top: 1356px;
+            border-radius: 20px;
+        }
+        .kalimat1{
+            position: absolute;
+            width: 570px;
+            height: 146px;
+            left: 1215px;
+            top: 526px;
+
+            font-style: normal;
+            font-weight: 500;
+            font-size: 56px;
+            line-height: 73px;
+
+            color: #3F3A3A
+        }
+        .kalimat2{
+            position: absolute;
+            width: 570px;
+            height: 64px;
+            left: 1215px;
+            top: 733px;
+
+            font-size: 24px;
+            line-height: 32px;
+
+            letter-spacing: 0.04em;
+
+            color: #3F3A3A;
+        }
+        .LearnMore{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+
+            letter-spacing: 0.07em;
+
+            color: #FFFFFF;
+
+            position: absolute;
+            width: 200px;
+            height: 64px;
+            left: 1215px;
+            top: 847px;
+            background: #EFC81A;
+            border-radius: 8px;
+            border: none;
+        }
+        .judul3{
+            position: absolute;
+            width: 267px;
+            height: 62px;
+            left: 190px;
+            top: 1308px;
+
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 62px;
+
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
+
+            color: #2E266F;
+        }
+        .gambar3{
+            position: absolute;
+            width: 800px;
+            height: 800px;
+            left: 135px;
+            top: 2660px;
+            border-radius: 15px;
+        }
+        .kalimat3{
+            position: absolute;
+            width: 570px;
+            height: 146px;
+            left: 1215px;
+            top: 1759px;
+
+            font-style: normal;
+            font-weight: 500;
+            font-size: 56px;
+            line-height: 73px;
+
+            color: #3F3A3A;
+        }
+        .kalimat4{
+            position: absolute;
+            width: 570px;
+            height: 64px;
+            left: 1215px;
+            top: 1966px;
+
+            font-size: 24px;
+            line-height: 32px;
+
+            letter-spacing: 0.04em;
+
+            color: #3F3A3A;
+        }
+        .LearnMore2{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+
+            letter-spacing: 0.07em;
+
+            color: #FFFFFF;
+
+            position: absolute;
+            width: 200px;
+            height: 64px;
+            left: 1215px;
+            top: 2080px;
+            background: #EFC81A;
+            border-radius: 8px;
+            border: none;
+        }
+
+        .judul4{
+            position: absolute;
+            width: 337px;
+            height: 62px;
+            left: 190px;
+            top: 2630px;
+
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 62px;
+
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
+
+            color: #3F3A3A;
+        }
+        .garisbantu{
+            position: absolute;
+            width: 1920px;
+            height: 1215px;
+
+            top: 2870px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: flex-start;
+        }
+
+        .allgambar{
+            height: 500px;
+            width: 500px;
+        }
+
+        .kalimat5{
+            position: absolute;
+            width: 587px;
+            height: 48px;
+            left: 666px;
+            top: 247px;
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 72px;
+            line-height: 48px;
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            text-transform: capitalize;
+
+            color: #2E266F;
+        }
+        .kalimat6{
+            position: absolute;
+            width: 472px;
+            height: 24px;
+            left: 724px;
+            top: 356px;
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            text-transform: capitalize;
+
+            color: #707070;
+        }
+        .kalimat7{
+            position: absolute;
+            width: 434px;
+            height: 28px;
+            left: 805px;
+            top: 597px;
+            
+            
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            text-transform: capitalize;
+
+            color: #707070;
+        }
+        .desain1{
+            position: relative;
+            width: 514px;
+            height: 1210px;
+            left: 1398px;
+            top: 0px;
+
+            background: #EFC81A;
+        }
+        .desain2{
+            position: absolute;
+            width: 25px;
+            height: 140px;
+            left: 135px;
+            top: 1140px;
+
+            background: #EFC81A;
+        }
+        .desain3{
+            position: absolute;
+            width: 25px;
+            height: 140px;
+            left: 135px;
+            top: 2344px;
+
+            background: #EFC81A;
+        }
+        .desain4{
+            position: absolute;
+            width: 514px;
+            height: 820px;
+            left: 0px;
+            top: 2579px;
+
+            background: #EFC81A;
+        }
+        .desain5{
+            position: absolute;
+            width: 25px;
+            height: 140px;
+            left: 135px;
+            top: 3665px;
+
+            background: #EFC81A;
+        }
+
+    </style>
+</head>
+<body>
+    <div  class="container">
+        <div class="a1">
+            <button class="button"><a href="#">Home</a></button>
+            <button class="button"><a href="#">Add Recepy</a></button>
+            <button class="button"><a href="#">Profil</a></button>
+            <h1 class="judul">Discover Recipe <br>& Delicious Food</h1>
+            <input class="search" type="text" placeholder="  search recipe">
+        </div>
+        <div class="a1">
+            
+        </div>
+    </div>
+    <div class="body">
+        <h1 class="judul2">Popular For You !</h1>
+        
+        <h1 class="kalimat1">Healthy Bone Broth Ramen (Quick & Easy)</h1>
+        <p class="kalimat2">Quick + Easy Chicken Bone Broth Ramen- Healthy chicken ramen in a hurry? That’s right!</p>
+        <button class="LearnMore"><a href="#">Learn More</a></button>
+
+        <h1 class="judul3">New Recipe</h1>
+        <h1 class="kalimat3">Healthy Bone Broth Ramen (Quick & Easy)</h1>
+        <p class="kalimat4">Quick + Easy Chicken Bone Broth Ramen- Healthy chicken ramen in a hurry? That’s right!</p>
+        <button class="LearnMore2"><a href="#">Learn More</a></button>
+
+        <h1 class="judul4">Popular Recipe</h1>
+        <div class="garisbantu">
+            <div class="allgambar"><img src="Rectangle 314.png" alt=""></div>
+            <div class="allgambar"><img src="Rectangle 315.png" alt=""></div>
+            <div class="allgambar"><img src="Rectangle 316.png" alt=""></div>
+            <div class="allgambar"><img src="Rectangle 317.png" alt=""></div>
+            <div class="allgambar"><img src="Rectangle 318.png" alt=""></div>
+            <div class="allgambar"><img src="Rectangle 319.png" alt=""></div>
+        </div>
+    </div>
+    <div class="footer">
+        <h1 class="kalimat5">Eat, Cook, Repeat</h1>
+        <p class="kalimat6">Share your best recipe by uploading here !</p>
+        <p class="kalimat7">
+            <tr>
+                <td>Product</td>
+                <td>Company</td>
+                <td>Learn more</td>
+                <td>Get in touch </td>
+            </tr>
+        </p>
+    </div>
+    <div>
+        <div class="desain1"></div>
+        <div class="desain2"></div>
+        <div class="desain3"></div>
+        <div class="desain4"></div>
+        <div class="desain5"></div>
+    </div>
+    <div>
+        <div class="gambar1"><img src="Rectangle 311.png" alt=""></div>
+        <div class="gambar2"><img src="Rectangle 312.png" alt=""></div>
+        <div class="gambar3"><img src="Rectangle 313.png" alt=""></div>
+    </div>
+    <button class="login"><a href="#">Login</a></button>
+            
+</body>
+</html>
